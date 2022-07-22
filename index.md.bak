@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>tygutowski</title>
+    <meta name="description" content="software engineering projects" />
+</head>
+<body>
+
+    <h1>tygutowski</h1>
+    <body bgcolor=”#0f3b3a">
+
+this is a demonstration site. i used metalsmith to turn markdown into html.
+
+### projects
+
+here is a list of my projects:
+ * <span style="color:white">[this website!](https://github.com/tygutowski/tygutowski.com)</span>
+ * <span style="color:white">[junko](https://github.com/tygutowski/junko)</span>
+ * <span style="color:white">[azure facial recognition](https://github.com/tygutowski/seniorproject)</span>
+ * <span style="color:white">[riot api statistic graphs](https://github.com/tygutowski/league-stats)</span>
+ * <span style="color:white">[slimefun4 addons](https://github.com/tygutowski/software-engineering-slimefun4)</span>
+ * <span style="color:white">[jointjam2022](https://github.com/tygutowski/jointjam22)</span>
+
+thank you for attending.
+
+</body>
+</html>

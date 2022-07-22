@@ -9,5 +9,5 @@ git init
 git remote add origin $GITURL
 git add CNAME
 git add .
-git commit -am "deploy website from tygutowski.com_source"
+git commit -am "deploy website from tygutowski.com/main"
 git push origin master:gh-pages --force

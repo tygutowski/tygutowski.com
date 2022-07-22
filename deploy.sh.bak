@@ -4,10 +4,12 @@ npm install
 node index
 cd build
 echo "www.tygutowski.com" > CNAME
+echo "theme: jekyll-theme-cayman" > _config.yml
 rm -rf .git/
 git init
 git remote add origin $GITURL
 git add CNAME
+git add _config.yml
 git add .
-git commit -am "add automatic metalsmith deployment"
+git commit -am "deploy website from tygutowski.com/main"
 git push origin master:gh-pages --force

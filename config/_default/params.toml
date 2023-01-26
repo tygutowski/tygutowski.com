@@ -1,4 +1,4 @@
-colorScheme = "congo"
+colorScheme = "blowfish"
 defaultAppearance = "light" # valid options: light or dark
 autoSwitchAppearance = true
 
@@ -14,12 +14,12 @@ mainSections = ["projects"]
 [footer]
   showMenu = false
   showCopyright = true
-  showThemeAttribution = false
+  showThemeAttribution = true
   showAppearanceSwitcher = true
   showScrollToTop = false
 
 [homepage]
-  layout = "hero" # valid options: page, profile, hero, card, background, custom
+  layout = "profile" # valid options: page, profile, hero, card, background, custom
   homepageImage = "img/cover.png" # used in: hero, and card
   showRecent = true
   showRecentItems = 10
@@ -30,7 +30,7 @@ mainSections = ["projects"]
   layoutBackgroundBlur = false # only used when layout equals background
 
 [article]
-  showDate = true
+  showDate = false
   showAuthor = false
   showHero = false
   heroStyle = "background" # valid options: basic, big, background
@@ -43,9 +43,9 @@ mainSections = ["projects"]
   invertPagination = false
   showReadingTime = false
   showTableOfContents = false
-  showTaxonomies = false 
+  showTaxonomies = false
   showAuthorsBadges = false 
-  showWordCount = true
+  showWordCount = false
   showSummary = true
   sharingLinks = false
 
@@ -55,6 +55,6 @@ mainSections = ["projects"]
   showSummary = true
   showTableOfContents = false
   showCards = true
-  groupByYear = true
+  groupByYear = false
   cardView = false
   cardViewScreenWidth = false

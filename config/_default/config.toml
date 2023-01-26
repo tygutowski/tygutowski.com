@@ -1,0 +1,10 @@
+baseURL = "https://tygutowski.com"
+title = "tygutowski"
+
+[author]
+name = "tygutowski"
+image = "image/nuntu.png"
+bio = "software engineering interested in game development"
+links = [
+   { twitter = "https://twitter.com/tygutowski" }
+]

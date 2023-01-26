@@ -12,21 +12,21 @@ mainSections = ["projects"]
   layout = "fixed" # valid options: basic, fixed
 
 [footer]
- # showMenu = true
+  showMenu = false
   showCopyright = true
-  showThemeAttribution = true
+  showThemeAttribution = false
   showAppearanceSwitcher = true
-  showScrollToTop = true
+  showScrollToTop = false
 
 [homepage]
   layout = "hero" # valid options: page, profile, hero, card, background, custom
   homepageImage = "img/cover.png" # used in: hero, and card
   showRecent = true
-  showRecentItems = 5
+  showRecentItems = 10
   showMoreLink = true
   showMoreLinkDest = "/projects"
-  cardView = false
-  cardViewScreenWidth = false
+  cardView = true
+  cardViewScreenWidth = true
   layoutBackgroundBlur = false # only used when layout equals background
 
 [article]
@@ -47,6 +47,7 @@ mainSections = ["projects"]
   showAuthorsBadges = false 
   showWordCount = true
   showSummary = true
+  sharingLinks = false
 
 [list]
   layoutBackgroundHeaderSpace = false

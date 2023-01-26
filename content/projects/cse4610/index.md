@@ -1,6 +1,6 @@
 ---
 title: "cse4610"
-description: "requirements engineering"
+summary: "requirements engineering"
 tags: ["class","python"]
 ---
 class

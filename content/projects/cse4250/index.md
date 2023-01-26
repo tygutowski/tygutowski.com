@@ -1,5 +1,6 @@
 ---
-title: "junko the robot"
-description: "desc"
+title: "cse4250"
+description: "programming language concepts"
+tags: ["class","rust","go","haskell","ada"]
 ---
-junkoooo
+class

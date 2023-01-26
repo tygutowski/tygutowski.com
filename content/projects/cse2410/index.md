@@ -1,5 +1,6 @@
 ---
-title: "junko the robot"
-description: "desc"
+title: "cse2410"
+description: "introduction to software engineering"
+tags: ["class","java"]
 ---
-junkoooo
+class

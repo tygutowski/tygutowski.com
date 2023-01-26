@@ -1,5 +1,6 @@
 ---
-title: "league of legends database"
-description: "test description"
+title: "league of legends statistics"
+summary: "statistics collected using riot games api"
+tags: ["gamedev","data"]
 ---
-league!
+league of legends

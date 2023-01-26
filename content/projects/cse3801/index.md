@@ -1,5 +1,6 @@
 ---
-title: "junko the robot"
-description: "desc"
+title: "cse3801"
+description: "introduction to cyber operations"
+tags: ["class","assembly","python"]
 ---
-junkoooo
+class

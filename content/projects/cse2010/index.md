@@ -1,5 +1,6 @@
 ---
-title: "junko the robot"
-description: "desc"
+title: "cse2010"
+summary: "data structures & algorithms"
+tags: ["class","java","data"]
 ---
-junkoooo
+class

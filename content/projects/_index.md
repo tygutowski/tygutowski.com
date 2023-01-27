@@ -1,6 +1,5 @@
 ---
-title: "test cracker"
-summary: "ap economics test cracker"
-tags: ["class"]
+title: "projects"
+summary: "a list of my projects"
 ---
-project page!!!
+project page

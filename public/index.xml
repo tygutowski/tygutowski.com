@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tygutowski</title>
+    <link>https://tygutowski.com/</link>
+    <description>Recent content on tygutowski</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://tygutowski.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>azure facial recognition</title>
+      <link>https://tygutowski.com/projects/azure-facial-recognition/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tygutowski.com/projects/azure-facial-recognition/</guid>
+      <description>high school senior project using microsoft azure</description>
+      
+    </item>
+    
+    <item>
+      <title>cse2010</title>
+      <link>https://tygutowski.com/projects/cse2010/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tygutowski.com/projects/cse2010/</guid>
+      <description>data structures &amp;amp; algorithms</description>
+      
+    </item>
+    
+    <item>
+      <title>cse2050</title>
+      <link>https://tygutowski.com/projects/cse2050/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tygutowski.com/projects/cse2050/</guid>
+      <description>programming in a second language</description>
+      
+    </item>
+    
+    <item>
+      <title>cse2410</title>
+      <link>https://tygutowski.com/projects/cse2410/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tygutowski.com/projects/cse2410/</guid>
+      <description>introduction to software engineering</description>
+      
+    </item>
+    
+    <item>
+      <title>cse3801</title>
+      <link>https://tygutowski.com/projects/cse3801/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tygutowski.com/projects/cse3801/</guid>
+      <description>introduction to cyber operations</description>
+      
+    </item>
+    
+    <item>
+      <title>cse4250</title>
+      <link>https://tygutowski.com/projects/cse4250/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tygutowski.com/projects/cse4250/</guid>
+      <description>programming language concepts</description>
+      
+    </item>
+    
+    <item>
+      <title>cse4610</title>
+      <link>https://tygutowski.com/projects/cse4610/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tygutowski.com/projects/cse4610/</guid>
+      <description>requirements engineering</description>
+      
+    </item>
+    
+    <item>
+      <title>cse5280</title>
+      <link>https://tygutowski.com/projects/cse5280/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tygutowski.com/projects/cse5280/</guid>
+      <description>computer graphics</description>
+      
+    </item>
+    
+    <item>
+      <title>gamejam: devlup</title>
+      <link>https://tygutowski.com/projects/gamejam-devlup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tygutowski.com/projects/gamejam-devlup/</guid>
+      <description>48 hour gamejam for devlup organization</description>
+      
+    </item>
+    
+    <item>
+      <title>gamejam: jointjam 2022</title>
+      <link>https://tygutowski.com/projects/gamejam-jointjam-2022/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tygutowski.com/projects/gamejam-jointjam-2022/</guid>
+      <description>48 hour gamejam for florida universities</description>
+      
+    </item>
+    
+    <item>
+      <title>junko the robot</title>
+      <link>https://tygutowski.com/projects/junko-the-robot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tygutowski.com/projects/junko-the-robot/</guid>
+      <description>a long-term gamedev project that follows junko, the robot</description>
+      
+    </item>
+    
+    <item>
+      <title>junko the robot</title>
+      <link>https://tygutowski.com/projects/test-cracker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tygutowski.com/projects/test-cracker/</guid>
+      <description>junkoooo</description>
+      
+    </item>
+    
+    <item>
+      <title>league of legends statistics</title>
+      <link>https://tygutowski.com/projects/league-of-legends-stats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tygutowski.com/projects/league-of-legends-stats/</guid>
+      <description>statistics collected using riot games api</description>
+      
+    </item>
+    
+  </channel>
+</rss>

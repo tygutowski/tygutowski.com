@@ -2,4 +2,4 @@
 title: "projects"
 summary: "a list of my projects"
 ---
-project page
+the following is a list of my personal and school projects.

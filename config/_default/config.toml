@@ -6,5 +6,6 @@ name = "tygutowski"
 image = "image/nuntu.png"
 bio = "software engineering interested in game development"
 links = [
-   { twitter = "https://twitter.com/tygutowski" }
+   { twitter = "https://twitter.com/tygutowski" },
+   { github = "https://github.com/tygutowski" }
 ]

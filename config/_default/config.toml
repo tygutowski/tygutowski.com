@@ -1,4 +1,5 @@
-baseURL = "https://tygutowski.com"
+#baseURL = "https://tygutowski.com"
+baseURL = "https://tygutowski.github.io/tygutowski.com"
 title = "tygutowski"
 
 [author]

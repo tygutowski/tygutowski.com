@@ -16,43 +16,55 @@
   
     
       <url>
-            <loc>/projects/cse2010/</loc>
+            <loc>/classes/</loc>
           </url>
     
   
     
       <url>
-            <loc>/projects/cse2050/</loc>
+            <loc>/classes/</loc>
           </url>
     
   
     
       <url>
-            <loc>/projects/cse2410/</loc>
+            <loc>/classes/cse2010/</loc>
           </url>
     
   
     
       <url>
-            <loc>/projects/cse3801/</loc>
+            <loc>/classes/cse2050/</loc>
           </url>
     
   
     
       <url>
-            <loc>/projects/cse4250/</loc>
+            <loc>/classes/cse2410/</loc>
           </url>
     
   
     
       <url>
-            <loc>/projects/cse4610/</loc>
+            <loc>/classes/cse3801/</loc>
           </url>
     
   
     
       <url>
-            <loc>/projects/cse5280/</loc>
+            <loc>/classes/cse4250/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>/classes/cse4610/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>/classes/cse5280/</loc>
           </url>
     
   

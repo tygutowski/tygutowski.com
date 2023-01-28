@@ -1,0 +1,18 @@
+[[main]]
+  name = "projects"
+  pageRef = "projects"
+  weight = 10
+
+[[main]]
+  #identifier = "github"
+  #pre = "github"
+  name = "github"
+  url = "https://github.com/tygutowski/tygutowski"
+  weight = 50
+
+[[main]]
+  #identifier = "twitter"
+  #pre = "twitter"
+  name = "twitter"
+  url = "https://twitter.com/tygutowski"
+  weight = 60

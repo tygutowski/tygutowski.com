@@ -2,69 +2,69 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Classes on tygutowski</title>
-    <link>https://tygutowski.com/classes.html</link>
+    <link>/classes.html</link>
     <description>Recent content in Classes on tygutowski</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://tygutowski.com/classes/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/classes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cse2010</title>
-      <link>https://tygutowski.com/classes/cse2010.html</link>
+      <link>/classes/cse2010.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://tygutowski.com/classes/cse2010.html</guid>
+      <guid>/classes/cse2010.html</guid>
       <description>data structures &amp;amp; algorithms</description>
     </item>
     
     <item>
       <title>cse2050</title>
-      <link>https://tygutowski.com/classes/cse2050.html</link>
+      <link>/classes/cse2050.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://tygutowski.com/classes/cse2050.html</guid>
+      <guid>/classes/cse2050.html</guid>
       <description>programming in a second language</description>
     </item>
     
     <item>
       <title>cse2410</title>
-      <link>https://tygutowski.com/classes/cse2410.html</link>
+      <link>/classes/cse2410.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://tygutowski.com/classes/cse2410.html</guid>
+      <guid>/classes/cse2410.html</guid>
       <description>introduction to software engineering</description>
     </item>
     
     <item>
       <title>cse3801</title>
-      <link>https://tygutowski.com/classes/cse3801.html</link>
+      <link>/classes/cse3801.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://tygutowski.com/classes/cse3801.html</guid>
+      <guid>/classes/cse3801.html</guid>
       <description>introduction to cyber operations</description>
     </item>
     
     <item>
       <title>cse4250</title>
-      <link>https://tygutowski.com/classes/cse4250.html</link>
+      <link>/classes/cse4250.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://tygutowski.com/classes/cse4250.html</guid>
+      <guid>/classes/cse4250.html</guid>
       <description>programming language concepts</description>
     </item>
     
     <item>
       <title>cse4610</title>
-      <link>https://tygutowski.com/classes/cse4610.html</link>
+      <link>/classes/cse4610.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://tygutowski.com/classes/cse4610.html</guid>
+      <guid>/classes/cse4610.html</guid>
       <description>requirements engineering</description>
     </item>
     
     <item>
       <title>cse5280</title>
-      <link>https://tygutowski.com/classes/cse5280.html</link>
+      <link>/classes/cse5280.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://tygutowski.com/classes/cse5280.html</guid>
+      <guid>/classes/cse5280.html</guid>
       <description>computer graphics</description>
     </item>
     

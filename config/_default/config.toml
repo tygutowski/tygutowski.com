@@ -1,11 +1,11 @@
-baseURL = "https://tygutowski.com/"
+baseURL = ""
 relativeURLs = true
 title = "tygutowski"
 
 [author]
 name = "tygutowski"
 image = "image/nuntu.png"
-bio = "software engineering interested in game development"
+headline = "software engineering student interested in game development"
 links = [
    { twitter = "https://twitter.com/tygutowski" },
    { github = "https://github.com/tygutowski" }

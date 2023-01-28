@@ -2,60 +2,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on tygutowski</title>
-    <link>/projects/</link>
+    <link>https://tygutowski.com/projects.html</link>
     <description>Recent content in Projects on tygutowski</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://tygutowski.com/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>azure facial recognition</title>
-      <link>/projects/azure-facial-recognition/</link>
+      <link>https://tygutowski.com/projects/azure-facial-recognition.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/projects/azure-facial-recognition/</guid>
+      <guid>https://tygutowski.com/projects/azure-facial-recognition.html</guid>
       <description>high school senior project using microsoft azure</description>
     </item>
     
     <item>
       <title>gamejam: devlup</title>
-      <link>/projects/gamejam-devlup/</link>
+      <link>https://tygutowski.com/projects/gamejam-devlup.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/projects/gamejam-devlup/</guid>
+      <guid>https://tygutowski.com/projects/gamejam-devlup.html</guid>
       <description>48 hour gamejam for devlup organization</description>
     </item>
     
     <item>
       <title>gamejam: jointjam 2022</title>
-      <link>/projects/gamejam-jointjam-2022/</link>
+      <link>https://tygutowski.com/projects/gamejam-jointjam-2022.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/projects/gamejam-jointjam-2022/</guid>
+      <guid>https://tygutowski.com/projects/gamejam-jointjam-2022.html</guid>
       <description>48 hour gamejam for florida universities</description>
     </item>
     
     <item>
       <title>junko the robot</title>
-      <link>/projects/junko-the-robot/</link>
+      <link>https://tygutowski.com/projects/junko-the-robot.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/projects/junko-the-robot/</guid>
+      <guid>https://tygutowski.com/projects/junko-the-robot.html</guid>
       <description>a long-term gamedev project that follows junko, the robot</description>
     </item>
     
     <item>
       <title>junko the robot</title>
-      <link>/projects/test-cracker/</link>
+      <link>https://tygutowski.com/projects/test-cracker.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/projects/test-cracker/</guid>
+      <guid>https://tygutowski.com/projects/test-cracker.html</guid>
       <description>junkoooo</description>
     </item>
     
     <item>
       <title>league of legends statistics</title>
-      <link>/projects/league-of-legends-stats/</link>
+      <link>https://tygutowski.com/projects/league-of-legends-stats.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/projects/league-of-legends-stats/</guid>
+      <guid>https://tygutowski.com/projects/league-of-legends-stats.html</guid>
       <description>statistics collected using riot games api</description>
     </item>
     

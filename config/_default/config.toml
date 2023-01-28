@@ -1,5 +1,6 @@
 baseURL = ""
 relativeURLs = true
+uglyURLs = true
 title = "tygutowski"
 
 [author]

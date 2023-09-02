@@ -1,9 +1,0 @@
-github.com/FortAwesome/Font-Awesome v0.0.0-20210316185733-d79d85c3fad8/go.mod h1:IUgezN/MFpCDIlFezw3L8j83oeiIuYoj28Miwr/KUYo=
-github.com/aFarkas/lazysizes v0.0.0-20210408151554-27c7ceb7d737/go.mod h1:xl3heUINAn0oPowV1biDQ2Pyw1w3x66I7KEbWkaxox0=
-github.com/hugo-mods/icons v0.0.0-20211204094455-ce8763589b4a/go.mod h1:sPodUyqumOYz75PKIwmqOYZXLIcLAujn7V9+1Hk4VW8=
-github.com/hugo-mods/lazyimg v0.0.0-20211204103006-f8df703cfde3/go.mod h1:mUw/5rIlzxiJfDnKsFnZAITZ29I7n3QeDd8WwGsBmTI=
-github.com/hugo-mods/release-notify v0.0.0-20211204191115-572031cb0d70/go.mod h1:RYv2eTG8LmJsxnEajLP4wkOLK3GDmwNterXVWgW6DYA=
-github.com/kdevo/osprey-delight/v5 v5.0.2 h1:MCrKV4HIRyI99OLw7iRKNXUUuIjCQXlWbmI0sG4122Y=
-github.com/kdevo/osprey-delight/v5 v5.0.2/go.mod h1:a3jNq3hacdIeZECrpJg9BM7PSK0X2kIQNzV/ZJ66mwk=
-github.com/nunocoracao/blowfish/v2 v2.26.0 h1:IkGsJDinbbKV9VKAB6LVbN87HvPa/iUASu7Sqi2oDoo=
-github.com/nunocoracao/blowfish/v2 v2.26.0/go.mod h1:4SkMc+Ht8gpQCwArqiHMBDP3soxi2OWuAhVney+cuyk=

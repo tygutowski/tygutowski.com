@@ -89,7 +89,7 @@ header nav button {
 }
 
 .project-preview img {
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -98,7 +98,7 @@ header nav button {
 }
 
 .overlay {
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;

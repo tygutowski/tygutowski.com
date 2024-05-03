@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tygutowski - heap heap hooray</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">home</a></li>
+            <li><a href="../projects.html">projects</a></li>
+            <li><a href="../ramblings.html">ramblings</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <div class="container">
+        <h2>heap heap hooray</h2>
+        <p>a garbage collector for the minijava compiler</p>
+        <p>
+            this project is ridiculously complicated, so this writeup will be very long.
+        </p>
+        <br>
+
+        <p>
+            my partner, 
+            <a href="https://github.com/kiwi515/">kiwi515</a>, 
+            wrote a minijava compiler in the compiler theory course. minijava is a subset of java. im no compiler expert, and i didnt even take the course, so the 
+            details about the compiler itself are a little beyond me.
+        </p>
+        <h4>
+            objective
+        </h4>
+        <p>
+            our goal was an investigation to learn about different garbage collecting techniques, and to be able to compare the different algorithms. i will note that we 
+            did not particularly care about performance, since other garbage collectors, such as java's, are far more efficient than ours.
+        </p>
+        <h4>
+            environment
+        </h4>
+        <p>
+            we started by setting up our environment. the compiler was originally written for SPARC, so we had to run a QEMU emulator. we ended up using Jabberwocky, a 
+            containerization software that was made as a senior design project the year prior. Jabberwocky was great because it had a few environments set up already, including:
+            os161 for the operating systems course, kali linux for the cybersecurity courses, and SPARC for compiler theory.
+        </p>
+        <h4>
+            reference counting
+        </h4>
+        <p>
+            once we got the environment set up, we chose the simplest algorithm we could think of for garbage collection: reference counting. reference counting has minimal 
+            overhead, as each object only needs a reference counter. when our object, gets another object pointed at it, our object's reference counter increases by 1, and 
+            whenever a pointer is removed from it, the reference counter is decremented by 1. this counter applies for things such as local variables as well. as long as the 
+            reference counter is above 0, we know we still need the object, but as soon as the reference counter reaches zero, we can free the memory.
+        </p>
+        <p>
+            this algorithm has a big problem. if object A points to B, and B points to A, then the reference counts for both A and B will forever be 1. this isn't a problem 
+            for a program with a short runtime, but theres other algorithms that solve this issue.
+        </p>
+        <h4>
+            mark-and-sweep
+        </h4>
+        <p>
+            the next implementation was mark-and-sweep, which (as the name implies), is split into two phases: the mark and the sweep phase. the mark phase traverses through the 
+            stack and marks everything. the stack consists of the registers and local variables, and we can just traverse each object and go to its references. once everything on 
+            the stack is traversed (and therefore marked), we move onto the sweep phase. the sweep phase traverses through the heap, freeing anything that isn't marked. if 
+            something isn't marked, we know its not needed, as its no longer on the stack. we only run this algorithm when the heap is full, and depending on the size of the heap, 
+            it can take a while for this to free everything.
+        </p>
+        <p>
+            this solves the issue of cyclic references, as we can now free things that reference one another. however, since this just frees things on the heap, the memory becomes 
+            fragmented. this isn't a huge issue, but if we want to allocate a large piece of memory, there's a high chance there's not enough contiguous free memory available.
+        </p>
+        <h4>
+            copying
+        </h4>
+        <p>
+            copying is very similar to mark-and-sweep. it has an identical mark phase, but a modified sweep phase. additionally, copying's heap is split into what we call a "chunk". 
+            these chunks are just sub-heaps that allow us to manipulate data within the heap. copying has two chunks: the "from heap", and the "to heap". the copying algorithm varies 
+            from mark-and-sweep in the way it deals with unneeded memory in the sweep phase. instead of just freeing the unwanted memory, it copies each needed object over from the 
+            "from heap" to the "to heap". this means that everything still wanted is allocated in-order on the "to heap". once everything is copied, then everything on the "from heap" 
+            is freed. finally, the aliases are swapped, so the "from heap" becomes to "to heap", and vice versa.
+        </p>
+        <p>
+            this solves the problem of fragmentation, since everything still wanted is allocated in-order in the "to heap" chunk. and although there's no apparent issue with this 
+            algorithm, there are ways to improve upon this.
+        </p>
+        <h4>
+            generational
+        </h4>
+        <p>
+            first, it is important to note that objects that have lived a long time already will probably live until the end of the program. likewise, newly instanced objects are 
+            more likely to live a shorter amount of time. this will be important later.
+        </p>
+        <p>
+            generational is almost exactly the same as copying, except instead of having only a "from heap" and a "to heap", we split the heap into several "generations", typically 
+            four. all objects are initialized in generation 0, and once generation 0 gets filled, we run the copying algorithm, copying everything still wanted to generation 1, and 
+            freeing everything in generation 0. since we only ever free a chunk when it gets filled, the further the generation is, the less often we need to run the garbage collection 
+            algorithm on it. this is especially important because we know we don't really need to check the older objects as much, because as we acknowledged earlier, these objects will 
+            probably exist until the end of the execution.
+        </p>
+        <p>
+            the second thing this fixes is the half-usable memory that copying gives. since copying swaps between two chunks, one of them always needs to be empty. since copying has 
+            several chunks, we can keep them filled. although this does introduce some issues regarding non-contiguous memory, it still is a large upgrade from copying.
+        </p>
+    </div>
+</body>
+</html>

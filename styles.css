@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center; /* Center the "Projects" heading */
+    margin-bottom: 20px; /* Add some space below the heading */
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.grid-container {
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three projects per row */
+    gap: 20px; /* Gap between projects */
+}
+
+.container {
+    margin-right: auto; /* Auto margin on the right */
+    margin-left: auto; /* Auto margin on the left */
+    padding: 20px;
+    max-width: 1200px; /* Ensure the content does not exceed this width */
+}
+
+
+.project-preview {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project {
+    display: inline-block;
+    width: 100%; /* Set a fixed width for the project container */
+    height: 100%;
+    padding: 0px;
+    background-color: #f2f2f2;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer; /* Change cursor to pointer to indicate clickable element */
+    border-radius: 10px; /* Add rounded corners */
+}
+
+.project-container {
+    margin: 20px;
+}
+
+.project img {
+    width: 100%; /* Make the image take up the whole container width */
+    height: 100%; /* Make the image take up the whole container height */
+    object-fit: cover; /* Ensure the image covers the entire container while maintaining aspect ratio */
+    object-position: center; /* Center the image within the container */
+    transition: filter 0.3s ease; /* Add transition for hover effect */
+}
+.project:hover img {
+    filter: brightness(0.8); /* Darken the image on hover */
+}
+
+.project-details {
+    display: inline-block;
+}
+
+
+.review {
+    display: flex; /* Use flexbox for layout */
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.review-profile {
+    flex: 0 0 auto; /* Don't allow the profile picture to grow */
+    margin-right: 20px;
+}
+
+.review-profile img {
+    width: 50px; /* Set width of profile picture */
+    height: 50px; /* Set height of profile picture */
+    border-radius: 50%; /* Round the profile picture */
+}
+
+.review-content {
+    flex: 1; /* Allow the review content to grow */
+}
+
+.review-info {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 10px;
+}
+
+.review-info h3 {
+    margin-right: 10px;
+}
+
+.review-rating {
+    font-size: 24px;
+}
+
+.review-content p {
+    margin-bottom: 5px;
+}
+
+.review-info a {
+    color: #007bff; /* Set hyperlink color */
+    text-decoration: none; /* Remove underline */
+}
+
+.review-info a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}

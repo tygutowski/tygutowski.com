@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tygutowski - hurticulture</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">home</a></li>
+            <li><a href="../hurticulture.html">hurticulture</a></li>
+            <li><a href="../projects.html">projects</a></li>
+            <li><a href="../games.html">games</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <div class="container">
+        <h2>hurticulture</h2>
+        <p>
+            honestly, world generation ain't all that. but it is REALLY neat!
+        </p>
+        <p>
+            let me break it down!
+
+            first, i start by generating a cellular noise map, similarly to a voronoi diagram
+        </p>
+        <img src="../images/hurticulture-thumbnails/biome-noisemap.png" alt="biome-noisemap", class="photo">
+        <br>
+        <img src="../images/hurticulture-thumbnails/voronoi-diagram.png" alt="voronoi-diagram", class="photo">
+        <p>
+            then, depending on the number of biomes that are available, i split it (you can add weights here so certain biomes show more or less)
+            additionally, you can add a moisture map or a heap map, to generate certain biomes in certain places. but it wasnt necessary for my game.
+        </p>
+        <p>
+            the issue is that hard edges between biomes looks like shit, so i apply a gaussian blur to it, so now the biome transition is smooth(er).
+            then, i go through the image and check each pixel's value, so i can tell which biomes it should belong to (30% plains, 70% mountains, perhaps?)
+        </p>
+        <img src="../images/hurticulture-thumbnails/biomemap-texture.png" alt="biomemap-texture", class="photo">
+        <p>
+            each biome i have has its own custom noise map. a desert has a cellular noise map with a euclidian distance function. this gives the appearance of dunes.
+            something like the plains biome might just have a basic perlin noise function with two octaves.
+        </p>
+        <img src="../images/hurticulture-thumbnails/desert-noisemap.png" alt="desert-noisemap", class="photo">
+        <img src="../images/hurticulture-thumbnails/plains-noisemap.png" alt="plains-noisemap", class="photo">
+        <p>
+            based on the weight of the pixel, i weight each noise map differently.
+            the benefit of doing this, is that each noise map blends peoperly, so there aren't any terrible jumps in biomes/terrain.
+        </p>
+        <p>
+            we now have a heightmap, which we can just apply to a mesh and a collision shape.
+        </p>
+        <img src="../images/hurticulture-thumbnails/heightmap.png" alt="heightmap", class="photo">
+        <br>
+        <img src="../images/hurticulture-thumbnails/generated-mesh-top.png" alt="generated-mesh-top", class="photo">
+        <img src="../images/hurticulture-thumbnails/generated-mesh.png" alt="generated-mesh", class="photo">
+        <p>
+            obviously there is so much more i can do with this, such as hydraulic erosion, which i intend to implement soon.
+        </p>
+        <br>
+    </div>
+</body>
+</html>

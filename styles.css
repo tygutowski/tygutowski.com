@@ -63,6 +63,37 @@ header nav ul li a {
     border-radius: 10px; /* Add rounded corners */
 }
 
+.photo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    max-height: 50%;
+    overflow: hidden;
+    border: 2px solid #ddd; /* Optional border */
+    border-radius: 10px; /* Optional rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+.photo {
+    max-width: 40%;
+    max-height: 40%;
+    object-fit: contain; /* Ensures the photo scales proportionally */
+}
+
+.game {
+    display: inline-block;
+    width: 100%; /* Set a fixed width for the project container */
+    height: 100%;
+    padding: 0px;
+    background-color: #f2f2f2;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    cursor: default; /* Change cursor to pointer to indicate clickable element */
+    border-radius: 10px; /* Add rounded corners */
+}
+
 .project-container {
     margin: 20px;
 }

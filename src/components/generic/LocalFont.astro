@@ -1,0 +1,119 @@
+---
+import { join } from "node:path";
+import { AstroFont } from "astro-font";
+
+const appDir = process.cwd();
+const getFontPath = (name: string) => join(appDir, "public", "fonts", name);
+---
+
+<AstroFont
+  config={[
+    {
+      name: "Outfit",
+      selector: ".outfit",
+      fallback: "comic-sans",
+      src: [
+        {
+          style: "normal",
+          path: getFontPath("outfit.ttf"),
+        },
+      ],
+    },
+    {
+      name: "Poppins",
+      selector: ".poppins",
+      fallback: "comic-sans",
+      src: [
+        {
+          preload: false,
+          style: "normal",
+          path: getFontPath("poppins.ttf"),
+        },
+      ],
+    },
+    {
+      name: "Righteous",
+      fallback: "comic-sans",
+      selector: ".righteous",
+      src: [
+        {
+          preload: false,
+          style: "normal",
+          path: getFontPath("righteous.ttf"),
+        },
+      ],
+    },
+    {
+      name: "Mighty Soul",
+      fallback: "comic-sans",
+      selector: ".mighty-soul",
+      src: [
+        {
+          preload: false,
+          style: "normal",
+          path: getFontPath("mighty-soul.ttf"),
+        },
+      ],
+    },
+    {
+      name: "Sanchez",
+      fallback: "comic-sans",
+      selector: ".sanchez",
+      src: [
+        {
+          preload: false,
+          style: "normal",
+          path: getFontPath("sanchez.ttf"),
+        },
+      ],
+    },
+    {
+      fallback: "comic-sans",
+      selector: ".dm-serif",
+      name: "DM Serif Text",
+      src: [
+        {
+          preload: false,
+          style: "normal",
+          path: getFontPath("dm-serif.ttf"),
+        },
+      ],
+    },
+    {
+      fallback: "comic-sans",
+      selector: ".comic-sans",
+      name: "Comic Sans",
+      src: [
+        {
+          preload: false,
+          style: "normal",
+          path: getFontPath("comic-sans.ttf"),
+        },
+      ],
+    },
+    {
+      fallback: "comic-sans",
+      selector: ".izayoi",
+      name: "Izayoi",
+      src: [
+        {
+          preload: false,
+          style: "normal",
+          path: getFontPath("izayoi.ttf"),
+        },
+      ],
+    },
+    {
+      fallback: "comic-sans",
+      selector: ".monospace",
+      name: "Monospace",
+      src: [
+        {
+          preload: false,
+          style: "normal",
+          path: getFontPath("monospace.ttf"),
+        },
+      ],
+    }
+  ]}
+/>

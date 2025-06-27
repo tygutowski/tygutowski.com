@@ -1,0 +1,30 @@
+---
+// types
+interface Props {
+  color?: string;
+}
+
+// import color list
+import colors from '../../config/colors.json';
+
+// determine color (fallback to random if not set)
+const color = Astro.props.color ?? colors[Math.floor(Math.random() * colors.length)];
+---
+
+<style define:vars={{ color }}>
+  div.brutal-card {
+    background-color: var(--color);
+    border-radius: 0.5rem;
+    border: 3px solid black;
+    filter: drop-shadow(7px 7px 0 rgb(0 0 0 / 1));
+    padding: 1rem;
+    transition: all 0.1s ease-in-out;
+  }
+  div.brutal-card:hover {
+    filter: drop-shadow(2px 2px 0 rgb(0 0 0 / 1));
+  }
+</style>
+
+<div class="brutal-card">
+  <slot />
+</div>

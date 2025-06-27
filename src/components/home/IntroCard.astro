@@ -1,0 +1,20 @@
+---
+import Card from '@components/layout/Card.astro';
+import RainbowText from './RainbowText.jsx';
+---
+
+<div class='col-span-4'>
+  <Card color='#4ade80'>
+    <div class='flex flex-col justify-between items-start gap-4'>
+      <p class='mt-4 outfit text-2xl md:text-5xl lg:text-7xl'>
+        tygutowski
+      </p>
+
+      <p class="mt-2 outfit text-xl md:text-3xl lg:text-5xl">
+      <span class="comic-sans">software engineer &</span><br />
+      <RainbowText client:visible text="game designer." /><br />
+      <p/ class="mt-2">
+    </p>
+    </div>
+  </Card>
+</div>

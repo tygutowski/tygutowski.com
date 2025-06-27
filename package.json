@@ -1,0 +1,51 @@
+{
+  "name": "tygutowski.com",
+  "version": "1.2.0",
+  "type": "module",
+  "packageManager": "pnpm@8.6.0",
+  "author": {
+    "name": "tygutowski",
+    "email": "tygutowski@gmail.com",
+    "url": "https://www.tygutowski.com/"
+  },
+  "homepage": "https://www.tygutowski.com",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/react": "^4.3.0",
+    "@astrojs/rss": "^4.0.12",
+    "@astrojs/sitemap": "^3.4.1",
+    "@eliancodes/brutal-ui": "^0.2.3",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@unocss/astro": "^66.2.0",
+    "astro": "^5.9.3",
+    "astro-font": "^1.1.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "satori": "^0.5.0",
+    "satori-html": "^0.3.2"
+  },
+  "devDependencies": {
+    "@iconify-json/logos": "^1.1.41",
+    "@iconify-json/simple-icons": "^1.2.38",
+    "@iconify-json/uil": "^1.1.8",
+    "@resvg/resvg-js": "^2.6.0",
+    "@typescript-eslint/parser": "^6.15.0",
+    "@unocss/preset-icons": "^66.2.0",
+    "@unocss/preset-wind3": "^66.2.0",
+    "@unocss/reset": "^0.57.7",
+    "eslint": "^8.56.0",
+    "eslint-plugin-astro": "^0.29.1",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "prettier": "^3.1.1",
+    "prettier-plugin-astro": "^0.12.2",
+    "sharp": "^0.32.6",
+    "unocss": "^66.2.0"
+  }
+}
